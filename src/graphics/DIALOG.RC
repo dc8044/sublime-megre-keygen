@@ -1,0 +1,25 @@
+#include "resource.h"
+
+#define IDB_PUSHED									   3001
+#define IDB_FOCUSED									   3002
+#define IDB_BITMAP1									   3003
+#define IDC_STATIC									   3004
+
+#define IDM_GETTEXT                                   32000
+#define IDM_CLEAR                                     32001
+#define IDM_EXIT                                      32003
+
+1 24 "Generator.manifest"
+
+MyDialog DIALOG 10, 10, 188, 280
+STYLE 0x0004 | DS_CENTER | WS_CAPTION | WS_MINIMIZEBOX |
+WS_SYSMENU | WS_VISIBLE | WS_OVERLAPPED | DS_MODALFRAME | DS_3DLOOK
+CAPTION "Sublime Merge Keygen"
+BEGIN    
+
+END
+
+IDB_BITMAP1 BITMAP "lomaet.bmp"
+IDB_FOCUSED BITMAP "focused.bmp"
+IDB_PUSHED BITMAP "pushed.bmp"
+MAINICON ICON "dc.ico"

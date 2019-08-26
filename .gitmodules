@@ -1,0 +1,12 @@
+[submodule "libtommath"]
+	path = libtommath
+	url = https://github.com/libtom/libtommath.git
+[submodule "libtomcrypt"]
+	path = libtomcrypt
+	url = https://github.com/libtom/libtomcrypt.git
+[submodule "zydis"]
+	path = zydis
+	url = https://github.com/zyantific/zydis.git
+[submodule "pelib"]
+	path = pelib
+	url = https://github.com/avast/pelib.git
